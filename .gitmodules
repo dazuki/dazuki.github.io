@@ -1,0 +1,3 @@
+[submodule "randomizer-notes-localstorage"]
+	path = randomizer-notes-localstorage
+	url = https://github.com/dazuki/randomizer-notes-localstorage
