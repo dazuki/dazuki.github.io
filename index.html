@@ -29,17 +29,37 @@
       rel="stylesheet"
       href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <style>
       .text-center {
         text-align: center;
+      }
+
+      div.center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
       }
     </style>
     <title>dazuki.org</title>
   </head>
   <body>
-    <main class="container text-center">
-      <h1>DazUki.org</h1>
-      <a href="/randomizer-notes-localstorage">randomizer-notes-localstorage</a>
-    </main>
+    <div class="center">
+      <div>
+        <h1 class="animate__animated animate__fadeInDown">dazuki.org</h1>
+      </div>
+      <div class="animate__animated animate__fadeInDown">
+        repos:
+        <a href="/randomizer-notes-localstorage"
+          >randomizer-notes-localstorage</a
+        >
+      </div>
+    </div>
   </body>
 </html>
